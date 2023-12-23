@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    padding: 100px 50px 0 50px;
+}
+
+.section1_bg_div {
+    background-image: url('../../Assest/bgimg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:auto;
+    padding-top: 26px;
+}
+
+.section1_bg_div h4 {
+    color: #333333;
+    font-size: 30px;
+}
+
+.section1_bg_div h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #002365;
+    text-align: center;
+    font-weight: 800;
+}
+
+.section1_btn {
+    padding: 15px 32px;
+    background: #002365;
+    border-radius: 10px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}

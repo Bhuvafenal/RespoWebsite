@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section4{
+    width: 91%;
+    margin: 0 auto 50px;
+    height: auto;
+}
+.respos_sec a{
+    background-color: #002365;
+    font-size: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.respos_sec a:hover {
+    border: 1px solid #002365;
+    background-color: white;
+    color: #002365;
+    transition: all .5s;
+}
+.respos_sec p{
+    /* padding-bottom: 15px; */
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+.cities_sec{
+    color: white;
+    text-align: center;
+    border: none;
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom right, darkblue, #1bc181);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 0;
+    margin-right: 20px;
+}
+.cities_sec h2{
+        font-size: 45px;
+}
+.cities_sec p{
+    font-size: 18px;
+}

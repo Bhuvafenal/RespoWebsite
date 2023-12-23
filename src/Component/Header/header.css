@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.book_btn a{
+   border-radius: 5px;
+   color: white;
+   background-color: darkblue;
+  background-image: linear-gradient(to bottom right, darkblue, #1bc181);
+}
+#navbarSupportedContent li a{
+    padding: 8px 30px;
+}

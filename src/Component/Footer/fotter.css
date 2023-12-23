@@ -1,0 +1,40 @@
+#foot{
+    background-color:#002365;
+    color:white;
+}
+#foot ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#foot_icon a{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.foot_sec1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-top:1px solid white;
+    padding-top: 10px;
+}
+.foot_icon ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 35px;
+}
+
+.foot_icon li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.foot_icon a {
+    font-size: 15px;
+    color: white;
+    padding: 2px 6px 4px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inpt_group {
+    border: 0;
+    border: 1px solid #2b2b2b;
+    color: #000000;
+    -webkit-text-fill-color: #000000;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+}
+
+.sec7_btn {
+    background-color: #002365;
+    color: #ffffff;
+    padding: 15px 50px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
