@@ -8,11 +8,11 @@ import comp_img from '../../Assest/pos_final.png'
 function Comsec6() {
   return (
     <>
-      <section className='container section6'>
+      <section className='container section6' >
         <div className='text-center'>
-          <h2 style={{ color: '#333333',}}>
+          <h2 style={{ color: '#333333',}} >
             Our
-            <strong style={{paddingLeft:'7px'}}>Products</strong>
+            <strong style={{paddingLeft:'7px'}} >Products</strong>
           </h2>
           <center>
             <img src={line} alt="" />
@@ -30,8 +30,8 @@ function Comsec6() {
         </div>
 
         <div className='product_sec2  row'>
-          <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
-              <img src={comp_img} alt="" style={{height:'400px'}}/>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-6' id='compu'>
+              <img src={comp_img} alt="" style={{height:'400px'}} />
           </div>
           <div className='col-12 col-sm-12 col-md-12 col-lg-6 prod_sec3'>
                 <div className='prod_sec3_img'> 

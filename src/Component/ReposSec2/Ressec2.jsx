@@ -53,12 +53,12 @@ function Ressec2() {
                 </div>
 
 
-                <div class="icon my-5">
-                    <div class="row p-3 g-3 ">
+                <div class="icon mt-4 mb-5">
+                    <div class="row p-3 g-5 ">
                         {
                             sec2_array.map((x) => {
                                 return (
-                                    <div className='class="col-sm-12 col-md-6 col-lg-3 col-12 text-center'>
+                                    <div className='col-sm-12 col-md-6 col-lg-3 col-12 text-center'>
                                         <div class="card res_sec ">
                                             <div class="card-body">
                                                 <a href="#">

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section5{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(3, 12, 78, 0.9), rgba(89, 173, 87, 0.9)), url('../../Assest/sec4_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.sec4_h2 h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.sec4_btn {
+    background-color: #ffffff;
+    color: #002365;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

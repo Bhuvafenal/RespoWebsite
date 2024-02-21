@@ -2,12 +2,98 @@
     box-sizing: border-box;
 }
 
-.book_btn a{
+.book_btn {
    border-radius: 5px;
    color: white;
    background-color: darkblue;
   background-image: linear-gradient(to bottom right, darkblue, #1bc181);
+  padding:0px 20px;
 }
+.book_btn a{
+    color: white;
+}
+.book_btn a:hover{
+    color: white;
+}
+
 #navbarSupportedContent li a{
     padding: 8px 30px;
 }
+.hed_modal {
+    position: absolute;
+    top: 82%;
+    left: 29%;
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+}
+
+.hed_modal li {
+    padding: 10px 0;
+    display: block;
+}
+
+.hed_modal a {
+    text-decoration: none;
+    color: #222;
+    text-transform: none;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+.hed_modal ul {
+    list-style-type: none;
+}
+
+.hed_col1 {
+    margin-left: -60px;
+    text-align: left;
+}
+
+.hed_col2 {
+    text-align: left;
+}
+
+.hed_modal2 {
+    position: absolute;
+    top: 82%;
+    left: 29%;
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+}
+
+.hed_modal2 li {
+    padding: 10px 0;
+    display: block;
+}
+
+.hed_modal2 a {
+    text-decoration: none;
+    color: #222;
+    text-transform: none;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+.hed_modal2 ul {
+    list-style-type: none;
+}
+
+@media screen and (min-width:400px) and (max-width:1060px){
+    .hed_modal,
+    .hed_modal2
+    {
+        display: none;
+    }
+
+}
+
+
+

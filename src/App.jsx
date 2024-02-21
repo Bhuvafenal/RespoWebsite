@@ -20,8 +20,8 @@ function App() {
       <Ressec2/>
       <Section4/>
       <Featuresec />
-      {/* <SpecialistSec5/> */}
-      <Comsec6/>
+      <SpecialistSec5/>
+      <Comsec6 />
       <Clientsec7/>
       <FormSection/>
       <Footer/>

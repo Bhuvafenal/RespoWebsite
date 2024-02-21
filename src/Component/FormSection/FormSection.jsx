@@ -5,7 +5,7 @@ import '../FormSection/form.css'
 function FormSection() {
     return (
         <>
-            <section className='container-fluid' style={{ backgroundColor: '#f1f9ff' , padding:'100px 60px' }}>
+            <section className='container-fluid' style={{ backgroundColor: '#f1f9ff' , padding:'100px 60px' }} id='form'>
                 <div className='row'>
                     <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
                         <img src={img} alt="" />

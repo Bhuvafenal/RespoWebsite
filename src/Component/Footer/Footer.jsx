@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone, FaWhatsapp, FaRegCopyright } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoIosStar } from "react-icons/io";
-import { CiFacebook } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa6";
 import img1 from '../../Assest/india.png';
@@ -54,6 +54,37 @@ function Footer() {
         }
     ]
 
+    const product_array = [{
+        icon: <IoIosArrowForward />,
+        title: 'Fine din POS'
+
+    }, {
+        icon: <IoIosArrowForward />,
+        title: 'Pizzeria'
+    },
+    {
+        icon: <IoIosArrowForward />,
+        title: 'Ice Cream Parlor'
+    }]
+
+    const product_array2 = [
+        {
+            icon: <IoIosArrowForward />,
+            title: 'Ice Cream Parlor'
+        },
+        {
+            icon: <IoIosArrowForward />,
+            title: 'FoodTrucks'
+        },
+        {
+            icon: <IoIosArrowForward />,
+            title: 'Quick Serve Restaurants'
+        },
+        {
+            icon: <IoIosArrowForward />,
+            title: 'Bakery & Confectionery'
+        }]
+
     const gettouch_array = [{
         social_icon: <FaLocationDot />,
         text: 'Visit Us'
@@ -70,7 +101,7 @@ function Footer() {
 
 
     const array = [{
-        icon1: <CiFacebook />
+        icon1: <FaFacebook />
     },
     {
         icon1: <IoLogoLinkedin />
@@ -91,16 +122,81 @@ function Footer() {
         {
             image: img3
         }]
-        const flag_array1 = [
-            {
-                image: img4
-            }, {
-                image: img5
-            },
-            {
-                image: img6
-            }]
+    const flag_array1 = [
+        {
+            image: img4
+        }, {
+            image: img5
+        },
+        {
+            image: img6
+        }]
 
+    const country = [{
+        countryname: 'India'
+    },
+    {
+        countryname: 'Amdabad'
+    },
+    {
+        countryname: 'Goa'
+    },
+    {
+        countryname: 'Hydarabad'
+    },
+    {
+        countryname: 'Mumbai'
+    },
+    {
+        countryname: 'Pune'
+    },
+    {
+        countryname: 'Surat'
+    },
+    {
+        countryname: 'Vadodara'
+    }
+    ]
+    const country1 = [{
+        countryname: 'Sudia Arbia'
+    },
+    {
+        countryname: 'Jedda'
+    },
+    {
+        countryname: 'Maruties'
+    },
+    {
+        countryname: 'Kenya'
+    },
+    {
+        countryname: 'Mumbai'
+    },
+    {
+        countryname: 'Nerobi'
+    },
+    {
+        countryname: 'Ghana'
+    },
+    {
+        countryname: 'Accra'
+    },
+    {
+        countryname: 'Undaha'
+    },
+    {
+        countryname: 'Maruties'
+    },
+    {
+        countryname: 'renwda'
+    },
+    {
+        countryname: 'India'
+    },
+    {
+        countryname: 'AccrJeddaa'
+    }
+    ]
     return (
         <>
             <section className="container-fluid  " id="foot">
@@ -132,7 +228,27 @@ function Footer() {
                             <ul>
                                 <li><h4 >Products</h4></li>
                                 {
-                                    footer_array.map((x) => {
+                                    product_array.map((x) => {
+                                        return (
+                                            <>
+                                                <li>
+                                                    <span>
+                                                        {x.icon}
+                                                    </span>
+                                                    <span>
+                                                        {x.title}
+                                                    </span>
+                                                </li>
+                                            </>
+                                        )
+                                    })
+                                }
+
+                            </ul>
+                            <ul>
+                                <li><h4 >Quick Links</h4></li>
+                                {
+                                    product_array2.map((x) => {
                                         return (
                                             <>
                                                 <li>
@@ -188,7 +304,7 @@ function Footer() {
                                 </ul>
                             </div>
                             <div className='row'>
-                                <div className="col foot_icon1" style={{marginLeft:'32px'}}>
+                                <div className="col foot_icon1" style={{ marginLeft: '32px' }}>
                                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex' }}>
                                         {
                                             flag_array.map((x, index) => {
@@ -202,8 +318,8 @@ function Footer() {
                                     </ul>
                                 </div>
                             </div>
-                             <div className='row'>
-                                <div className="col foot_icon1" style={{marginLeft:'32px'}}>
+                            <div className='row'>
+                                <div className="col foot_icon1" style={{ marginLeft: '32px' }}>
                                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex' }}>
                                         {
                                             flag_array1.map((x, index) => {
@@ -220,8 +336,45 @@ function Footer() {
 
                         </div>
                     </div>
-
                 </div>
+                <div>
+
+                    <div className='country row' style={{ borderTop: '1px solid white' }} >
+                        <div className='count_sec col'>
+                            <ul>
+                                {
+                                    country.map((item) => {
+                                        return (
+                                            <>
+                                                <li>
+                                                    <a href="">{item.countryname}</a>
+                                                </li>
+                                            </>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='country row' style={{ padding: '10px 0', borderBottom: '1px solid white' }} >
+                        <div className='count_sec col'>
+                            <ul>
+                                {
+                                    country1.map((item) => {
+                                        return (
+                                            <>
+                                                <li>
+                                                    <a href="">{item.countryname}</a>
+                                                </li>
+                                            </>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div className='foot_sec1'>
                     <p>
                         <i><FaRegCopyright /></i>

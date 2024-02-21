@@ -9,8 +9,10 @@
     background-image: url('../../Assest/client_bg_map.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-position:center;
+    width: 100%;
     height: auto;
+    
 }
 .sec7_img{
     width: 88%;

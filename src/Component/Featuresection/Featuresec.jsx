@@ -9,6 +9,7 @@ import img5 from '../../Assest/ftr_set_icon_05.png'
 import img6 from '../../Assest/ftr_set_icon_06.png'
 import img7 from '../../Assest/ftr_set_icon_07.png'
 import img8 from '../../Assest/ftr_set_icon_08.png'
+import wave_img from '../../Assest/img_footer.jpg'
 
 
 function Featuresec() {
@@ -36,7 +37,7 @@ function Featuresec() {
         heding: 'Customer Relationship Tool',
         text: "Helps you analyse customer behavior and enables you to stay ",
         buttontext: "Know More"
-    },{
+    }, {
         image: img5,
         heding: 'Franchise Management',
         text: "Introducing a combination of unparalleled characteristics for managing your restaurant",
@@ -60,12 +61,16 @@ function Featuresec() {
         text: "Helps you analyse customer behavior and enables you to stay in touch with your customers",
         buttontext: "Know More"
     }
-]
+    ]
     return (
         <>
-            <section className='sec_3_bg  main_sec3 '>
+            <section className='sec_3_bg  '>
+                <div className='featur_waveimg'>
+                        {/* <img src={wave_img} alt="" /> */}
+                </div>
+                <div className='main_sec3'>
                 <div>
-                    <div className='text-center' style={{paddingBottom:'20px'}}>
+                    <div className='text-center' style={{ paddingBottom: '20px' }}>
                         <h2>
                             Explore our awesome
                             <strong style={{ fontWeight: '700', paddingLeft: '7px' }}>Feature Set</strong>
@@ -83,7 +88,7 @@ function Featuresec() {
                                 <div class="col-sm-12 col-md-6 col-lg-3 col-12 ">
                                     <div class="card feature_card_sec">
                                         <div class="card-body">
-                                            <img src={item.image} alt="" style={{width:'70px', height:'70px'}}/>
+                                            <img src={item.image} alt="" style={{ width: '70px', height: '70px' }} />
                                             <h2 class="card-text">{item.heding}</h2>
                                             <p>{item.text}</p>
                                             <a href="#">{item.buttontext}</a>
@@ -93,6 +98,7 @@ function Featuresec() {
                             )
                         })
                     }
+                </div>
                 </div>
             </section>
         </>

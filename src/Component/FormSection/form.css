@@ -13,6 +13,10 @@
     margin: 10px 10px 10px 0;
     border-radius: 10px;
 }
+#form img{
+    width: 100%;
+    height: auto;
+}
 
 .sec7_btn {
     background-color: #002365;
@@ -24,3 +28,4 @@
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
 }
+

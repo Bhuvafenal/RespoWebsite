@@ -15,7 +15,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border-top:1px solid white;
     padding-top: 10px;
 }
 .foot_icon ul {
@@ -38,3 +37,26 @@
     border: 1px solid white;
     text-align: center;
 }
+
+  .count_sec ul,
+  .count_sec1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .count_sec li,
+  .count_sec1 li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .count_sec a,
+  .count_sec1 a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    padding-right: 25px ;
+  }
+  
